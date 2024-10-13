@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Global Warming Logo"> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="definition.html">Definition</a></li>
+                <li><a href="causes.html">Causes</a></li>
+                <li><a href="effects.html">Effects</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <img src="images/img005.png" alt="Global Warming Contact"> 
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="reason">Reason for Contact:</label><br>
+                <select id="reason" name="reason">
+                    <option value="feedback">Feedback</option>
+                    <option value="support">Support</option>
+                    <option value="question">Question</option>
+                </select><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thanks for reaching out! We'll get back to you soon.</p>
+    </footer>
+</head>
+</html>
