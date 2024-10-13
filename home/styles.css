@@ -36,6 +36,11 @@ header nav ul li a.active {
 
 main {
     padding: 20px;
+    margin: auto;
+}
+
+main,table {
+    border: 1;
 }
 
 footer {
@@ -43,7 +48,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: none;
     width: 100%;
     bottom: 0;
 }

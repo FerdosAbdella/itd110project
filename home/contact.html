@@ -29,11 +29,14 @@
             <h1>Contact Us</h1>
             <img src="images/img005.png" alt="Global Warming Contact"> 
             <form action="submit.php" method="post">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
+                <label for="firstname">First Name:</label><br>
+                <input type="text" id="firstname" name="firstname" required maxlength="45"><br>
+
+                <label for="lastname">Last Name:</label><br>
+                <input type="text" id="lastname" name="lastname" required maxlength="45"><br>
 
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
+                <input type="email" id="email" name="email" required><br>
 
                 <label for="reason">Reason for Contact:</label><br>
                 <select id="reason" name="reason">
@@ -48,10 +51,9 @@
                 <input type="submit" value="Submit">
             </form>
         </section>
-    </main>
-
+    </main> 
     <footer>
         <p>Thanks for reaching out! We'll get back to you soon.</p>
     </footer>
-</head>
+</body>
 </html>
